@@ -1,0 +1,59 @@
+.revenueContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  padding: 0.5rem 1rem;
+}
+.revenue {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.revenue h3 {
+  font-size: 18px;
+}
+.revenue p {
+  color: #52BEBA;
+  font-size: 14px;
+}
+.arrow {
+  background-color: #E5F6F5;
+  border-radius: 50%;
+  color: #52BEBA;
+  padding: 0.2rem;
+}
+.select {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.select p {
+  font-size: 14px;
+}
+.incomes {
+  background-color: #3074DE;
+  padding: 6px;
+  margin-right: 5px;
+  border-radius: 20%;
+}
+.expenses {
+  background-color: #E058A5;
+  padding: 6px;
+  margin-right: 5px;
+  border-radius: 20%;
+}
+
+@media screen and (max-width: 970px) {
+  .select p {
+    font-size: 8px;
+  }
+  .revenue h3 {
+    font-size: 12px;
+  }
+  .revenue p {
+    font-size: 8px;
+  }
+}
