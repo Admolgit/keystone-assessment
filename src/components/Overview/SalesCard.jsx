@@ -11,7 +11,6 @@ import {
   Filler,
 } from "chart.js";
 import { IncomeData } from "../Sales/SalesData";
-import "./SalesCard.scss";
 
 ChartJS.register(
   Title,
@@ -85,47 +84,47 @@ const SalesCard = () => {
   };
 
   return (
-    <div className='cardContainer'>
-      <div className='row diffColor'>
-        <h2>Daily Income</h2>
-        <div className='row2'>
-          <div className='money'>
+    <div className='flex pl-[20px] pr-[20px] items-center bg-[#f4f8fc] p-[1rem] mr-[2rem] justify-between  '>
+      <div className='p-[2rem] w-[300px] bg-[#436ed9] text-white sm-sc:p-[0.5rem] sm-sc:w-[80px] '>
+        <h2 className='text-[14px] font-normal w-[100%] pb-[10px] text-[#a8b1b8] sm-sc:text-[8px] sm-sc:pb-[10px] '>Daily Income</h2>
+        <div className='flex justify-between items-center'>
+          <div className='text-[30px] font-bold w-[100%] sm-sc:text-[10px] '>
             <p>$ 345</p>
           </div>
-          <div className='image'>
+          <div className='w-[100px] h-[50px] sm-sc:w-[50px] sm-sc:h-[30px] '>
             <Line data={datas} options={optionChart.options}></Line>
           </div>
         </div>
       </div>
-      <div className='row'>
-        <h2>Daily Expense</h2>
-        <div className='row2'>
-          <div className='money'>
+      <div className='p-[2rem] w-[300px] bg-[#ffffff] sm-sc:p-[0.5rem] sm-sc:w-[80px]'>
+        <h2 className='text-[14px] font-normal w-[100%] pb-[10px] text-[#a8b1b8] sm-sc:text-[8px] sm-sc:pb-[10px] '>Daily Expense</h2>
+        <div className='flex justify-between items-center'>
+          <div className='text-[30px] font-bold w-[100%] sm-sc:text-[10px] '>
             <p>$ 380</p>
           </div>
-          <div className='image'>
+          <div className='w-[100px] h-[50px] sm-sc:w-[50px] sm-sc:h-[30px]'>
             <Bar data={datas} options={optionChart.options}></Bar>
           </div>
         </div>
       </div>
-      <div className='row'>
-        <h2>Weekly Income</h2>
-        <div className='row2'>
-          <div className='money'>
+      <div className='p-[2rem] w-[300px] bg-[#ffffff] sm-sc:p-[0.5rem] sm-sc:w-[80px] '>
+        <h2 className='text-[14px] font-normal w-[100%] pb-[10px] text-[#a8b1b8] sm-sc:text-[8px] sm-sc:pb-[10px] '>Weekly Income</h2>
+        <div className='flex justify-between items-center'>
+          <div className='text-[30px] font-bold w-[100%] sm-sc:text-[10px] '>
             <p>$ 5380</p>
           </div>
-          <div className='image'>
+          <div className='w-[100px] h-[50px] sm-sc:w-[50px] sm-sc:h-[30px] '>
             <Line data={datas} options={optionChart.options}></Line>
           </div>
         </div>
       </div>
-      <div className='row'>
-        <h2>Weekly Expense</h2>
-        <div className='row2'>
-          <div className='money'>
+      <div className='p-[2rem] w-[300px] bg-[#ffffff] sm-sc:p-[0.5rem] sm-sc:w-[80px]'>
+        <h2 className='text-[14px] font-normal w-[100%] pb-[10px] text-[#a8b1b8] sm-sc:text-[8px] sm-sc:pb-[10px] '>Weekly Expense</h2>
+        <div className='flex justify-between items-center'>
+          <div className='text-[30px] font-bold w-[100%] sm-sc:text-[10px] '>
             <p>$ 4320</p>
           </div>
-          <div className='image'>
+          <div className='w-[100px] h-[50px] sm-sc:w-[50px] sm-sc:h-[30px]'>
             <Line data={datas} options={optionChart.options}></Line>
           </div>
         </div>

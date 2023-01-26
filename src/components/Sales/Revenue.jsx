@@ -1,7 +1,6 @@
 import React from "react";
 import * as AiIcons from "react-icons/ai";
 import { IncomeData } from "./SalesData";
-import './Revenue.scss';
 
 const Revenue = () => {
   // Coverting income to an array of incomes
@@ -21,20 +20,20 @@ const Revenue = () => {
     ((currentRevenue - previousRevenue) / currentRevenue) * 100;
 
   return (
-    <div className="revenueContainer">
-      <div className="revenue">
-        <h3>$ {sumTotal.toLocaleString()}</h3>
-        <AiIcons.AiOutlineArrowUp className="arrow" />
-        <p>+ {percentageChange.toFixed(2)}%</p>
+    <div className="flex justify-between items-center bg-white pt-[0.5rem] pb-[0.5rem] pl-[1rem] pr-[1rem] sm-sc:pl-[0.5rem] pr-[0.5rem] ">
+      <div className="flex justify-between items-center gap-[10px] ">
+        <h3 className='text-[18px] sm-sc:text-[10px] '>$ {sumTotal.toLocaleString()}</h3>
+        <AiIcons.AiOutlineArrowUp className="bg-[#E5F6F5] rounded-[50%] p-[0.2rem] text-[#52BEBA] " />
+        <p className='text-[#52BEBA] text-[14px] sm-sc:text-[8px] '>+ {percentageChange.toFixed(2)}%</p>
       </div>
-      <div className="select">
+      <div className="flex justify-between items-center gap-[10px] ">
         <div>
-          <p><span className="incomes"> </span> Incomes</p>
+          <p className='text-[14px] sm-sc:text-[8px]'><span className="bg-[#3074DE] p-[6px] mr-[5px] rounded-[20%] "> </span> Incomes</p>
         </div>
         <div>
-        <p><span className="expenses"></span> Expenses</p>
+        <p className='text-[14px] sm-sc:text-[8px]'><span className="bg-[#E058A5] p-[6px] mr-[5px] rounded-[20%]"></span> Expenses</p>
         </div>
-        <div>
+        <div  className='text-[14px] sm-sc:text-[8px]'>
           <select value="Year">
             <option value="Year">Year</option>
             <option value="2022">2022</option>

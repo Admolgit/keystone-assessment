@@ -34,7 +34,7 @@ export const ProductData = [
   {
     id: 4,
     image: `${Images}`,
-    product: 'Liverpool Fc 20/21 Stadium',
+    product: 'Liverpool Fc 20/21',
     variety: 3,
     sku: 8609474,
     productType: 'Jerseys',

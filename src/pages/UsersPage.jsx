@@ -1,8 +1,13 @@
 import React from 'react'
+import Footer from '../components/Footer';
+import Navbar from '../components/Navbar';
 
 const UsersPage = () => {
   return (
-    <div  className='same'>UsersPage</div>
+    <div  className='same'>
+      <Navbar />
+      <Footer />
+    </div>
   )
 }
 

@@ -1,6 +1,7 @@
 import React from "react";
 import {  Switch, Route } from "react-router-dom";
-import './App.scss'
+import './App.scss';
+import './tailwind.css'
 import DashboardMenu from "./components/DashboardMenu/DashboardMenu";
 import Dashboard from "./components/Dashboard/Dashboard";
 import ReportPage from './pages/ReportPage';

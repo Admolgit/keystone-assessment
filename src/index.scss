@@ -1,4 +1,12 @@
 .same {
   margin-left: 20rem;
   margin-top: 3rem;
+  background-color: #F4F8FC;
+  height: 100vh;
+}
+
+@media screen and (max-width: 970px) {
+  .same {
+    margin-left: 1rem;
+  }
 }

@@ -10,7 +10,6 @@ import {
   Legend
 } from "chart.js";
 import { CategoriesData, CategoriesData1 } from './ProductsData';
-import './ProductChart.scss';
 
 ChartJS.register(
   RadialLinearScale,
@@ -69,9 +68,9 @@ const ProductChart = () => {
   };
 
   return (
-    <div className='productChart'>
-      <h1>Top Selling Categories</h1>
-      <div className='chart'>
+    <div className='bg-[#fff] text-[#A8B1B8] p-2'>
+      <h1 className='p-[2rem] text-[16px] sm-sc:text-[12px] sm-sc:p-[0rem]'>Top Selling Categories</h1>
+      <div className='text-[14px] w-[300px] flex justify-center m-auto sm-sc:h-[200px] '>
           <Radar data={datas} options={optionChart.options}></Radar>
         </div>
     </div>
