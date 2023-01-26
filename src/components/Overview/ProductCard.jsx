@@ -4,11 +4,11 @@ import ProductChart from "./ProductChart";
 
 const ProductCard = () => {
   return (
-    <div className="grid grid-cols-3 gap-[1.4rem] bg-[#F4F8FC] pt-[0rem] pl-[1rem] pb-[1rem] pr-[1rem] mr-[2rem] sm-sc:block sm-sc:mb-[2rem]">
+    <div className="grid grid-cols-3 gap-[1.4rem] bg-[#F4F8FC] pt-[0rem] pl-[1rem] pb-[1rem] pr-[1rem] mr-[2rem] sm-sc:block sm-sc:mb-[2rem] ">
       <div>
         <ProductChart />
       </div>
-      <div className="bg-[#fff] p-[2rem] col-span-2 sm-sc:p-[0.5rem] ">
+      <div className="bg-[#fff] p-[2rem] col-span-2 sm-sc:p-[0.5rem] sm-sc:mt-[1rem] ">
         <div className="flex justify-between items-center pb-[2rem] sm-sc:pb-[1rem]">
           <h2 className="text-[16px] text-[#A8B1B8] sm-sc:text-[12px] ">Latest Added Products</h2>
           <p>...</p>

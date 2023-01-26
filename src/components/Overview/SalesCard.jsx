@@ -85,7 +85,7 @@ const SalesCard = () => {
 
   return (
     <div className='flex pl-[20px] pr-[20px] items-center bg-[#f4f8fc] p-[1rem] mr-[2rem] justify-between  '>
-      <div className='p-[2rem] w-[300px] bg-[#436ed9] text-white sm-sc:p-[0.5rem] sm-sc:w-[80px] '>
+      <div className='p-[2rem] w-[250px] bg-[#436ed9] text-white sm-sc:p-[0.5rem] sm-sc:w-[80px] '>
         <h2 className='text-[14px] font-normal w-[100%] pb-[10px] text-[#a8b1b8] sm-sc:text-[8px] sm-sc:pb-[10px] '>Daily Income</h2>
         <div className='flex justify-between items-center'>
           <div className='text-[30px] font-bold w-[100%] sm-sc:text-[10px] '>
