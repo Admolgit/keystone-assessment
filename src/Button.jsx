@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 function Button({ title, className }) {
   return (
@@ -12,4 +12,4 @@ function Button({ title, className }) {
   );
 }
 
-export default Button
+export default Button;

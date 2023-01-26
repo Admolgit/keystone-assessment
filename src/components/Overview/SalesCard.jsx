@@ -96,7 +96,7 @@ const SalesCard = () => {
           </div>
         </div>
       </div>
-      <div className='p-[2rem] w-[300px] bg-[#ffffff] sm-sc:p-[0.5rem] sm-sc:w-[80px]'>
+      <div className='p-[2rem] w-[250px] bg-[#ffffff] sm-sc:p-[0.5rem] sm-sc:w-[80px]'>
         <h2 className='text-[14px] font-normal w-[100%] pb-[10px] text-[#a8b1b8] sm-sc:text-[8px] sm-sc:pb-[10px] '>Daily Expense</h2>
         <div className='flex justify-between items-center'>
           <div className='text-[30px] font-bold w-[100%] sm-sc:text-[10px] '>
@@ -107,7 +107,7 @@ const SalesCard = () => {
           </div>
         </div>
       </div>
-      <div className='p-[2rem] w-[300px] bg-[#ffffff] sm-sc:p-[0.5rem] sm-sc:w-[80px] '>
+      <div className='p-[2rem] w-[250px] bg-[#ffffff] sm-sc:p-[0.5rem] sm-sc:w-[80px] '>
         <h2 className='text-[14px] font-normal w-[100%] pb-[10px] text-[#a8b1b8] sm-sc:text-[8px] sm-sc:pb-[10px] '>Weekly Income</h2>
         <div className='flex justify-between items-center'>
           <div className='text-[30px] font-bold w-[100%] sm-sc:text-[10px] '>
@@ -118,7 +118,7 @@ const SalesCard = () => {
           </div>
         </div>
       </div>
-      <div className='p-[2rem] w-[300px] bg-[#ffffff] sm-sc:p-[0.5rem] sm-sc:w-[80px]'>
+      <div className='p-[2rem] w-[250px] bg-[#ffffff] sm-sc:p-[0.5rem] sm-sc:w-[80px]'>
         <h2 className='text-[14px] font-normal w-[100%] pb-[10px] text-[#a8b1b8] sm-sc:text-[8px] sm-sc:pb-[10px] '>Weekly Expense</h2>
         <div className='flex justify-between items-center'>
           <div className='text-[30px] font-bold w-[100%] sm-sc:text-[10px] '>
