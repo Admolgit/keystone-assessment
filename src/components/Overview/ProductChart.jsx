@@ -70,7 +70,7 @@ const ProductChart = () => {
   return (
     <div className='bg-[#fff] text-[#A8B1B8] p-2'>
       <h1 className='p-[2rem] text-[16px] sm-sc:text-[12px] sm-sc:p-[0rem]'>Top Selling Categories</h1>
-      <div className='text-[14px] w-[300px] flex justify-center m-auto sm-sc:h-[200px] '>
+      <div className='text-[14px] w-[300px] flex justify-center m-auto sm-sc:h-[300px] '>
           <Radar data={datas} options={optionChart.options}></Radar>
         </div>
     </div>
