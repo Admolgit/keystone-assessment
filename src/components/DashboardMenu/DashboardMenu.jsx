@@ -32,7 +32,7 @@ const UserMenu = () => {
                   <AiIcons.AiOutlineClose />
                 </Link>
               </li>
-              <div className="text-center mt-[-14rem] pb-[3rem] sm-sc:pt-[0rem] sm-sc:pl-[0rem] sm-sc:pb-[2rem] sm-sc:pr-[0rem] sm-sc:mt-[-2rem] sm-sc:text-center ">
+              <div className="text-center mt-[-10rem] pb-[3rem] sm-sc:pt-[0rem] sm-sc:pl-[0rem] sm-sc:pb-[2rem] sm-sc:pr-[0rem] sm-sc:mt-[-2rem] sm-sc:text-center ">
                 <h1 className="text-[2em] leading-9 font-extrabold font-sans text-[#263555] ">RETRO</h1>
               </div>
               {SideBar.map((item, index) => {
